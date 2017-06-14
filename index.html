@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta name="description" content="云服务提供商!">
+    <meta name="Keywords" content="rose,云服务">
+    <link rel="icon" href=""/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--<link rel="stylesheet" href="css/footer1.css">-->
+    <title>首页</title>
+</head>
+<body>
+    <header id="header" class="clr">
+        <div class="nav_box clr" >
+            
+            <div class="nav lg_container">
+                <div id="rose_header_box" >
+                    <nav id="rose_nav" class="clr">
+                        <div class="rose_logo lt" >
+                            <a href="#">
+                                <img src="images/main/rose_log.png" alt="roseData">
+                            </a>
+                        </div>
+                        <ul class="nav_ul lt clr">
+                            <li class="lt"><a href="" data-menu="0">解决方案</a></li>
+                            <li class="lt"><a href="" data-menu="1">产品</a></li>
+                            <li class="lt"><a href="" data-menu="2">支持服务</a></li>
+                            <li class="lt"><a href="" data-menu="3">培训认证</a></li>
+                            <li class="lt"><a href="" data-menu="-1">合作伙伴</a></li>
+                            <li class="lt"><a href="" data-menu="4">关于我们</a></li>
+                        </ul>
+                        <div class="swith_en rt">
+                            <ul class="clr">
+                                <li class="lt"><a id="loginBtn" href="tpl/login.html">登录</a></li>
+                                <li class="lt en_us"><a href="">English</a></li>
+                                <li class="lt ch_zn"><a href="">中文</a></li>
+                            </ul>
+                        </div>
+                        <div class="rose_search_box rt clr">
+                            <div class="rose_search_icon rt"></div>
+                            <div class="rose_search_form">
+                                    <div class="sorts_box">
+                                        <span>全部</span>
+                                        <ul class="sorts_dropmenu">
+                                            <li>全部</li>
+                                            <li>产品</li>
+                                            <li>新闻动态</li>
+                                            <li>其他</li>
+                                        </ul>
+                                    </div>
+                                    <input type="text" name="search_content" id="search_content" value=""/>
+                                    <a id="search_btn"></a>
+                            </div>
+
+                        </div>
+                        
+                    </nav>
+                    <div id="rose_nav_drop_content">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="dropmenu_box" data-hide="1">
+            <div class="lg_container">
+                <div class="rose_menu_section clr" data-section="rose0">
+                    <div class="dropmenu_left lt">
+                        <div class="clr">
+                            <div class="submenu_items lt">
+                                <h4>热备集群</h4>
+                                <ul >
+                                    <li><a href="#">共享存储集群</a></li>
+                                    <li><a href="#">数据镜像集群</a></li>
+                                </ul>
+                            </div>
+                            <div class="submenu_items lt">
+                                <h4>容灾云</h4>
+                                <ul>
+                                    <li><a href="#">私有容灾云</a></li>
+                                    <li><a href="#">共有容灾云</a></li>
+                                </ul>
+                            </div>
+                            <div class="submenu_items lt">
+                                <h4>其他</h4>
+                                <ul>
+                                    <li><a href="#">虚拟化平台集群</a></li>
+                                    <li><a href="#">远程容灾</a></li>
+                                    <li><a href="#">多机双柜</a></li>
+                                </ul> 
+                            </div>         
+                        </div>
+                    </div>
+                    <div class="dropmenu_right lt">
+                        <div class="submenu_exhibition">
+                            <h4>成功案例</h4>
+                            <dl>
+                                <dt><img src="images/main/nav (3).jpg" alt=""></dt>
+                                <dd class="dl_tit">某网络运营集团私有容灾云案例</dd>
+                                <dd class="dl_body">某网络运营集团旗下公司主要从事互联网接入业务、网络工程设计建设、网络增值服务、网络设备研发生产等业务。</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="rose_menu_section clr" data-section="rose1">
+                    <div class="dropmenu_left lt">
+                        <div class="submenu_items lt">
+                            <h4>产品</h4>
+                            <ul>
+                                <li><a href="#">RoseHA</a></li>
+                                <li><a href="#">RoseMirrorHA</a></li>
+                                <li><a href="#">RoseVM Cluster（镜像版）</a></li>
+                                <li><a href="#">RoseVM Cluster（共享版）</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu_items lt">
+                            <h4></h4>
+                            <ul>
+                                <li><a href="#">RoseHA(Multi-node)</a></li>
+                                <li><a href="#">RoseReplicator</a></li>
+                                <li><a href="#">RoseGlobalHA</a></li>
+                                <li><a href="#">RoseStor DS</a></li>
+                                <li><a href="#">RoseStor Foundation</a></li>
+                            </ul>  
+                        </div>
+                         
+                    </div>
+                    <div class="dropmenu_right lt clr">
+                        <div class="submenu_exhibition lt">
+                            <h4>免费试用</h4>
+                            <dl>
+                                <dt><img src="images/main/nav (2).jpg" alt=""/></dt>
+                                <dd class="dl_link"><a href="">现在申请免费试用30天</a></dd>
+                            </dl>
+                        </div>
+                        <div class="submenu_exhibition lt">
+                            <h4>营销服务中心</h4>
+                            <dl>
+                                <dt><img src="images/main/nav (4).jpg" alt=""/></dt>
+                                <dd class="dl_link"><a href="">查看里您最近的营销网店</a></dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="rose_menu_section clr" data-section="rose2">
+                    <div class="dropmenu_left lt">
+                        <div class="submenu_items lt">
+                            <h4>支持服务</h4>
+                            <ul>
+                                <li><a href="#">技术支持</a></li>
+                                <li><a href="#">产品试用</a></li>
+                                <li><a href="#">防伪查询</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu_items lt">
+                            <h4></h4>
+                            <ul>
+                                <li><a href="#">正版识别</a></li>
+                                <li><a href="#">盗版曝光</a></li>
+                                <li><a href="#">非法声明</a></li>
+                            </ul>  
+                        </div>
+                          
+                    </div>
+                    <div class="dropmenu_right lt">
+                        <div class="submenu_exhibition lt">
+                            <h4>联系方式</h4>
+                            <dl>
+                                <dt><img src="images/main/nav (5).jpg" alt=""/></dt>
+                                <dd class="dl_tit"><a href="">售后售前咨询、产品试用、防伪查询...无论您遇到任何问题，我们都将随时为您提供服务</a></dd>
+                            </dl>
+                        </div>
+                        <div class="submenu_exhibition lt">
+                            <h4></h4>
+                            <dl>
+                                <dt class="contact_modes">
+                                    <p class="sell_begin"><i></i>售前服务：<span>400-666-9576 转1</span></p>
+                                    <p class="sell_after"><i></i>售后服务：<span>400-666-9576 转2</span></p>
+                                    <p class="online_ask"><i></i><a href="#">在线咨询</a></p>
+                                </dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="rose_menu_section clr" data-section="rose3">
+                    <div class="dropmenu_left lt">
+                        <div class="submenu_items lt">
+                            <h4>培训</h4>
+                            <ul>
+                                <li><a href="#">培训课程</a></li>
+                                <li><a href="#">培训及考试计划</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu_items lt">
+                            <h4>认证</h4>
+                            <ul>
+                                <li><a href="#">考生报名</a></li>
+                                <li><a href="#">成绩查询</a></li>
+                                <li><a href="#">证书查询</a></li>
+                            </ul>  
+                        </div>
+                          
+                    </div>
+                    <div class="dropmenu_right lt">
+                        <div class="submenu_exhibition lt">
+                            <h4>最新培训计划</h4>
+                            <dl>
+                                <dt><img src="images/main/nav (6).jpg" alt=""/></dt>
+                                <dd class="dl_tit"><a href="">查看里您最近的营销网店</a></dd>
+                                <dd class="dl_body"><span>成都|</span>2017.05.10-2017.05.12</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="rose_menu_section" data-section="rose4">
+                    <div class="dropmenu_left">
+                        <div class="submenu_items lt">
+                            <h4>公司概括</h4>
+                            <ul>
+                                <li><a href="#">公司简介</a></li>
+                                <li><a href="#">发展历程</a></li>
+                                <li><a href="#">服务客户</a></li>
+                                <li><a href="#">法律声明</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu_items lt">
+                            <h4>新闻与活动</h4>
+                            <ul>
+                                <li><a href="#">公司新闻</a></li>
+                                <li><a href="#">市场活动</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu_items lt">
+                            <h4>公司招聘</h4>
+                            <ul>
+                                <li><a href="#">社会招聘</a></li>
+                                <li><a href="#">校园招聘</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu_items lt">
+                            <h4>联系我们</h4>
+                            <ul>
+                                <li><a href="#">公司总部</a></li>
+                                <li><a href="#">办事处</a></li>
+                                <li><a href="#">营销服务中心</a></li>
+                                <li><a href="#">授权经销商查询</a></li>
+                                <li><a href="#">认证工程师查询</a></li>
+                            </ul> 
+                        </div>
+                            
+                    </div>
+                    <div class="dropmenu_right">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="mobile_header">
+        <div class="moblie_nav clr">
+            <div class="rose_logo lt" >
+                <a href="#">
+                    <img src="images/main/rose_log.png" alt="roseData" />
+                </a>
+            </div>
+            <div class="rose_switch_mobile rt">
+                <a href="#">登录</a>
+                <a href="#" class="en_us">en</a>
+                <a href="#" class="ch_zn">中</a>
+                <span href="#" class="glyphicon glyphicon-menu-hamburger switch_btn" id="submenu_btn"></span>
+            </div>
+        </div>
+        <div class="mobile_header_content">
+            <div class="rose_mobile_search_box clr">
+                <div class="rose_mobile_search_form">
+                    <div class="sorts_box">
+                        <span>全部</span>
+                        <ul class="sorts_dropmenu">
+                            <li>全部</li>
+                            <li>产品</li>
+                            <li>新闻动态</li>
+                            <li>其他</li>
+                        </ul>
+                    </div>
+                    <input type="text" name="search_content" class="mobile_search_content" />
+                    <a class="mobile_search_btn"></a>
+                </div>
+            </div>
+            <ul id="accordion" class="accordion">
+                <li>
+                    <div class="link">
+                        <a href="#">解决方案</a>
+                        <i class="glyphicon glyphicon-chevron-down"></i>    
+                    </div>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="#">热备集群</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">容灾云</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">其他</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="link">
+                        <a href="#">产品</a>
+                        <i class="glyphicon glyphicon-chevron-down"></i>   
+                    </div>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="#">RoseHA</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">RoseHA</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                            <li><a href="#">RoseHA</a></li>
+                        </ul> 
+                    </div>
+                </li>
+                <li>
+                    <div class="link">
+                        <a href="">支持服务</a>
+                        <i class="glyphicon glyphicon-chevron-down"></i>  
+                    </div>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="#">技术支持</a></li>
+                            <li><a href="#">产品试用</a></li>
+                            <li><a href="#">防伪查询</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">正版识别</a></li>
+                            <li><a href="#">盗版曝光</a></li>
+                            <li><a href="#">非法声明</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li >
+                    <div class="link">
+                       <a href="">培训认证</a>
+                       <i class="glyphicon glyphicon-chevron-down"></i>   
+                    </div>
+                    <div class="submenu">
+                        <ul>
+                            <li><a href="#">培训</a></li>
+                            <li><a href="#">培训课程</a></li>
+                            <li><a href="#">培训及考试计划</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">认证</a></li>
+                            <li><a href="#">考生报名</a></li>
+                            <li><a href="#">成绩查询</a></li>
+                            <li><a href="#">证书查询</a></li>
+                        </ul> 
+                    </div>
+                </li>
+                <li>
+                    <div class="link">
+                        <a href="">合作伙伴</a>
+                        <i class="glyphicon glyphicon-chevron-down"></i>   
+                    </div>
+                    <div class="submenu"></div>
+                </li>
+                <li>
+                    <div class="link">
+                        <a href="">关于我们</a>
+                        <i class="glyphicon glyphicon-chevron-down"></i>   
+                    </div>
+                    <div class="submenu">
+                        <ul >
+                            <li><a href="#">公司概括</a></li>
+                            <li><a href="#">公司简介</a></li>
+                            <li><a href="#">发展历程</a></li>
+                            <li><a href="#">服务客户</a></li>
+                            <li><a href="#">法律声明</a></li>
+
+                        </ul>
+                        <ul >
+                            <li><a href="#">新闻与活动</a></li>
+                            <li><a href="#">公司新闻</a></li>
+                            <li><a href="#">市场活动</a></li>
+                        </ul>
+                        <ul >
+                            <li><a href="#">公司招聘</a></li>
+                            <li><a href="#">社会招聘</a></li>
+                            <li><a href="#">校园招聘</a></li>
+                        </ul>
+                         <ul >
+                            <li><a href="#">联系我们</a></li>
+                            <li><a href="#">公司总部</a></li>
+                            <li><a href="#">办事处</a></li>
+                            <li><a href="#">营销服务中心</a></li>
+                            <li><a href="#">授权经销商查询</a></li>
+                            <li><a href="#">认证工程师查询</a></li>
+                        </ul> 
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="banner" class="animated">
+        <div class="banner_content lg_container">
+            <ul>
+                <li>
+                    <a href="#"></a>
+                    <div class="banner_items">
+                        <div class="row">
+                            <div class="banner_left_text">
+                                <h1>行云无疆，智存高远</h1>
+                                <p>ROSE为客户提供容灾云服务，按需灾备、按需扩展，可轻松构建容灾系统</p>
+                                <a href="#" class="banner_link">了解更多</a>
+                            </div>
+                            <div class="banner_right_img">
+                                <div class="img_layer" style="transform: translateZ(50px);">
+                                    <img src="images/main/banner1_1.png" alt="">
+                                </div>
+                                <div class="img_layer" style="transform: translateZ(100px);">
+                                    <img src="images/main/banner1_2.png" alt="">
+                                </div>
+                                <div class="img_layer" style="transform: translateZ(150px);">
+                                    <img src="images/main/banner1_3.png" alt="">
+                                </div>
+                            </div> 
+                        </div>      
+                    </div>     
+                </li>
+                <li>
+                    <a href="#"></a>
+                    <div class="banner_items">
+                        <div class="row">
+                            <div class="banner_left_text">
+                                <h1>存储双活新标杆</h1>
+                                <p>RPO/RPO=0全容错软、硬架构的数据保护方案，高级别保护数据和业务系统</p>
+                                <a href="#" class="banner_link">了解更多</a>
+                            </div>
+                            <div class="banner_right_img">
+                                 <div class="img_layer" style="transform: translateZ(50px);">
+                                    <img src="images/main/banner2_1.png" alt="">
+                                </div>
+                                <div class="img_layer" style="transform: translateZ(100px);">
+                                    <img src="images/main/banner2_2.png" alt="">
+                                </div>
+                                <div class="img_layer" style="transform: translateZ(150px);">
+                                    <img src="images/main/banner2_3.png" alt="">
+                                </div>
+                            </div> 
+                        </div>      
+                    </div>     
+                </li>
+                <li>
+                    <a href="#"></a>
+                    <div class="banner_items">
+                        <div class="row">
+                            <div class="banner_left_text">
+                                <h1>容灾、近在咫尺</h1>
+                                <p>提高抵御生产中心极端灾难事故的应对能力，为本地生产中心构建远程容灾中心</p>
+                                <a href="#" class="banner_link">了解更多</a>
+                            </div>
+                            <div class="banner_right_img">
+                                 <div class="img_layer" style="transform: translateZ(50px);">
+                                    <img src="images/main/banner3_1.png" alt="">
+                                </div>
+                                <div class="img_layer" style="transform: translateZ(100px);">
+                                    <img src="images/main/banner3_2.png" alt="">
+                                </div>
+                                <div class="img_layer" style="transform: translateZ(150px);">
+                                    <img src="images/main/banner3_3.png" alt="">
+                                </div>
+                            </div> 
+                        </div>      
+                    </div>     
+                </li>
+                <li>
+                    <a href="#"></a>
+                    <div class="banner_items">
+                        <div class="row">
+                            <div class="banner_left_text">
+                                <h1>虚拟化革命</h1>
+                                <p>适配虚拟化平台，解决虚拟化单实例风险， 实时监控虚机内部的资源运行状态，提供 数据和应用容错的集群解决方案 </p>
+                                <a href="#" class="banner_link">了解更多</a>
+                            </div>
+                            <div class="banner_right_img">
+                                 <div class="img_layer" style="transform: translateZ(50px);">
+                                    <img src="images/main/banner4_1.png" alt="">
+                                </div>
+                                <div class="img_layer" style="transform: translateZ(100px);">
+                                    <img src="images/main/banner4_2.png" alt="">
+                                </div>
+                                <div class="img_layer" style="transform: translateZ(150px);">
+                                    <img src="images/main/banner4_3.png" alt="">
+                                </div>
+                            </div> 
+                        </div>      
+                    </div>     
+                </li>
+            </ul>  
+        </div>
+        <div class="banner_icon_link">
+            <ul class="clr hd">
+                <li class="lt"></li>
+                <li class="lt"></li>
+                <li class="lt"></li>
+                <li class="lt"></li>
+            </ul>
+        </div>
+    </div>
+    
+    <section id="solution" class="animated">
+        <div class="lg_container">
+            <div class="sol_title">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1>行业领先的解决方案</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>医疗、电力、监控、通信...你所需要的一切数据保护，Rose均能以业界领先的水平为你提供
+                        </p>
+                    </div>
+                </div> 
+            </div>
+            <div class="sol_content">
+                <ul class="clr">
+                    <li class="lt" style="background: url(images/main/sol01.png) center no-repeat;">
+                        <div class="sol_text">
+                            <h2>容灾云</h2>
+                            <b></b>
+                            <p>公有云与公有云，公有云与私有云</p>
+                        </div>
+                        <a href="#">了解更多</a>
+                        <div class="fix_bg"></div>
+                    </li>
+                    <li class="lt" style="background: url(images/main/sol02.png) center no-repeat;">
+                        <div class="sol_text">
+                            <h2>容灾云</h2>
+                            <b></b>
+                            <p>公有云与公有云，公有云与私有云</p>
+                        </div>
+                        <a href="#">了解更多</a>
+                        <div class="fix_bg"></div>
+                    </li>
+                    <li class="lt" style="background: url(images/main/sol03.png) center no-repeat;">
+                        <div class="sol_text">
+                            <h2>容灾云</h2>
+                             <b></b>
+                            <p>公有云与公有云，公有云与私有云</p>
+                        </div>
+                        <a href="#">了解更多</a>
+                        <div class="fix_bg"></div>
+                    </li>
+                    <li class="lt" style="background: url(images/main/sol04.png) center no-repeat;">
+                        <div class="sol_text">
+                            <h2>容灾云</h2>
+                             <b></b>
+                            <p>公有云与公有云，公有云与私有云</p>
+                        </div>
+                        <a href="#">了解更多</a>
+                        <div class="fix_bg"></div>
+                    </li>
+                    <li class="lt" style="background: url(images/main/sol05.png) center no-repeat;">
+                        <div class="sol_text">
+                            <h2>容灾云</h2>
+                             <b></b>
+                            <p>公有云与公有云，公有云与私有云</p>
+                        </div>
+                        <a href="#">了解更多</a>
+                        <div class="fix_bg"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="mobile_sol_content">
+                <ul>
+                    <li class="row clr">       
+                        <div class="col-xs-12 mob_sol_item">
+                                <div class="col-xs-8 mob_sol_text">
+                                    <h2>容灾云</h2>
+                                    <p>公有云与公有云，公有云与私有云</p>
+                                </div>
+                                <div class="col-xs-4 mob_sol_item_more">
+                                    <a href="#">了解更多</a>
+                                </div>    
+                        </div>
+                    </li>
+                    <li class="row clr">       
+                        <div class="col-xs-12 mob_sol_item">
+                                <div class="col-xs-8 mob_sol_text">
+                                    <h2>虚拟化</h2>
+                                    <p>弥补虚拟化容灾，数据和应用容错</p>
+                                </div>
+                                <div class="col-xs-4 mob_sol_item_more">
+                                    <a href="#">了解更多</a>
+                                </div>    
+                        </div>
+                    </li>
+                    <li class="row clr">       
+                        <div class="col-xs-12 mob_sol_item">
+                                <div class="col-xs-8 mob_sol_text">
+                                    <h2>多机双柜</h2>
+                                    <p>全容错架构，存储双活</p>
+                                </div>
+                                <div class="col-xs-4 mob_sol_item_more">
+                                    <a href="#">了解更多</a>
+                                </div>  
+                        </div>
+                    </li>
+                    <li class="row clr">       
+                        <div class="col-xs-12 mob_sol_item">
+                                <div class="col-xs-8 mob_sol_text">
+                                    <h2>热备集群</h2>
+                                    <p>业务连续运营，数据容灾保护</p>
+                                </div>
+                                <div class="col-xs-4 mob_sol_item_more">
+                                    <a href="#">了解更多</a>
+                                </div>    
+                        </div>
+                    </li>
+                    <li class="row clr">       
+                        <div class="col-xs-12 mob_sol_item">
+                                <div class="col-xs-8 mob_sol_text">
+                                    <h2>容灾云</h2>
+                                    <p>公有云与公有云，公有云与私有云</p>
+                                </div>
+                                <div class="col-xs-4 mob_sol_item_more">
+                                    <a href="#">了解更多</a>
+                                </div>        
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="products" class="clr animated">
+        <div id="canvas_box"></div>
+        <div class="lg_container product_view clr">
+            <div class="pro_title">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1>用优秀的产品的保护您的数据</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <p>断电、宕机、系统升级、自然灾害...为您提供全方位的数据保护
+                        </p>
+                    </div>
+                </div> 
+            </div>
+            <div class="pro_content">
+                <ul class="clr">
+                    <li class="col-xs-12 col-md-6 col-lg-4" onmousee>
+                        <div class="pro_icon">
+                            <div class="pro_image1"></div>
+                            <h2>RoseHA</h2>
+
+                            <p>持续、稳定、高效<br/>基于共享存储的多机高可用集群解决方案</p>
+                        </div>
+
+                        <a href="">了解详情</a>
+                    </li>
+                    <li class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="pro_icon">
+                            <div class="pro_image2"></div>
+                            <h2>RoseHA(Multi-node)</h2>
+                            <p>持续、稳定、高效<br/>基于共享存储的多机高可用集群解决方案</p>
+                        </div>
+                        <a href="">了解详情</a>
+                    </li>
+                    <li class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="pro_icon">
+                            <div class="pro_image3"></div>
+                            <h2>RoseMirrorHA</h2>
+                            <p>实时、高效、稳健<br/>无需共享存储的纯软数据镜像双机高可用解决方案</p>
+                        </div>
+                        <a href="">了解详情</a>
+                    </li>
+                    <li class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="pro_icon">
+                            <div class="pro_image4"></div>
+                            <h2>RoseGlobalHA</h2>
+                            <p>实时、智能、灵活 <br>高可用集群及远程容灾方案</p>
+                        </div>
+                        <a href="">了解详情</a>
+                    </li>
+                    <li class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="pro_icon">
+                            <div class="pro_image5"></div>
+                            <h2>RoseStor Foundation</h2>
+                            <p>高容错、高安全、高性能 <br>多机双柜集群的高级解决方案</p>
+                        </div>
+
+                        <a href="">了解详情</a>
+                    </li>
+                    <li class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="pro_icon">
+                            <div class="pro_image6"></div>
+                            <h2>RoseStor DS</h2>
+                            <p>高容错、高安全、高性能 <br>双机双柜（多机双柜）集群的高级解决方案</p>
+                        </div>
+
+
+                        <a href="">了解详情</a>
+                    </li>
+                    <li class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="pro_icon">
+                            <div class="pro_image7"></div>
+                            <h2>RoseReplicator</h2>
+                            <p>持续、完整、可靠 <br/>基于网络的数据及应用异地容灾专家</p>
+                        </div>
+
+                        <a href="">了解详情</a>
+                    </li>
+                    <li class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="pro_icon">
+                            <div class="pro_image8"></div>
+                            <h2>RoseVM Cluster(共享版)</h2>
+                            <p>基于共享存储的虚拟化平台 <br>高可用解决方案</p>
+                        </div>
+
+                        <a href="">了解详情</a>
+                    </li>
+                    <li class="col-xs-12 col-md-6 col-lg-4">
+                        <div class="pro_icon">
+                            <div class="pro_image9"></div>
+                            <h2>RoseVM Cluster(镜像版)</h2>
+                            <p>基于数据实时镜像的<br/> 虚拟化平台高可用解决方案</p>
+                        </div>
+
+                        <a href="">了解详情</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="f_nav">
+            <div class="container f_image">
+                <div class="row">
+                    <div class="col-lg-6 col-xs-12">
+                        <div class="row">
+                            <div class="f_experPhoto col-xs-2"><i></i></div>
+                            <div class="f_experWord col-xs-3">
+                                <p>免费体验</p>
+                                <p>申请30天实用时间</p>
+
+                            </div>
+                            <div class="f_erperButton col-xs-offset-3 col-xs-4"><a href="">立即使用</a></div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-lg-6 col-xs-12">
+                        <div class="row">
+                            <div class="f_experPhoto2 col-xs-2"><i></i></div>
+                            <div class="f_experWord2 col-xs-3">
+                                <p>免费体验</p>
+                                <p>申请30天实用时间</p>
+                            </div>
+                            <div class="f_erperButton2 col-xs-4 col-xs-offset-3"><a href="">立即使用</a></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="f_main">
+            <div class="container f_phone">
+                <div class="row">
+                    <div class="col-xs-12">欢迎致电全国服务热线</div>
+                    <div class="col-xs-12">400-666-9576</div>
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="f_title">
+                        <ul>
+                            <li class="lt">解决方案</li>
+                            <li class="lt">产品</li>
+                            <li class="lt">服务</li>
+                            <li class="lt">关于</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="f_m_main">
+                        <div class="lt">
+                            <ul class="f_m_ul">
+                                <li><a href="">热备集群</a></li>
+                                <li><a href="">虚拟化平台集群</a></li>
+                                <li><a href="">远程容灾</a></li>
+                                <li><a href="">多机双柜</a></li>
+                                <li><a href="">容灾云</a></li>
+                            </ul>
+                        </div>
+                        <div class="lt">
+                            <ul class="f_m_ul">
+                                <li><a href="">热备集群</a></li>
+                                <li><a href="">虚拟化平台集群</a></li>
+                                <li><a href="">远程容灾</a></li>
+                                <li><a href="">多机双柜</a></li>
+                                <li><a href="">容灾云</a></li>
+                            </ul>
+                        </div>
+                        <div class="lt">
+                            <ul class="f_m_ul">
+                                <li><a href="">热备集群</a></li>
+                                <li><a href="">虚拟化平台集群</a></li>
+                                <li><a href="">远程容灾</a></li>
+                                <li><a href="">多机双柜</a></li>
+                                <li><a href="">容灾云</a></li>
+                            </ul>
+                        </div>
+                        <div class="lt">
+                            <ul class="f_m_ul">
+                                <li><a href="">热备集群</a></li>
+                                <li><a href="">虚拟化平台集群</a></li>
+                                <li><a href="">远程容灾</a></li>
+                                <li><a href="">多机双柜</a></li>
+                                <li><a href="">容灾云</a></li>
+                            </ul>
+                        </div><div class="lt">
+                        <ul class="f_m_ul">
+                            <li><a href="">热备集群</a></li>
+                            <li><a href="">虚拟化平台集群</a></li>
+                            <li><a href="">远程容灾</a></li>
+                            <li><a href="">多机双柜</a></li>
+                            <li><a href="">容灾云</a></li>
+                        </ul>
+                    </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="f_footer">
+            <div class="container">
+                <div class="row">
+                    <div class="lt col-lg-6 col-xs-12">
+                        <a>关于我们</a>
+                        <span>|</span>
+                        <a>法律声明</a>
+                        <span>|</span>
+                        <a>联系我们</a>
+                        <span>|</span>
+                        <a>新浪微博</a>
+                    </div>
+                    <div class="rt col-lg-6 col-xs-12">
+                        <div class="row">
+
+                        </div>
+                        <a>Copyright © Rose Datasystems Inc.</a>
+                        <a>版权所有</a>
+                        <span>|</span>
+                        <a>蜀ICP备13000776号</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <div class="right_bar">
+        <ul>
+            <li class="contact_tell">400-666-9576</li>
+            <li class="ewm">
+                <i></i>
+                <img src="images/main/weixin.jpg" alt="">
+
+            </li>
+            <li class="to_top">
+                <i></i>
+
+            </li>
+        </ul>
+    </div>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="js/canvas-particle.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+
+    </script>
+</body>
+</html>

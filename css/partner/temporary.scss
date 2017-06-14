@@ -1,0 +1,132 @@
+@charset "utf-8";
+//@import "join.scss";
+.p_temp{
+  background: #007AF0;
+  height: 400px;
+  color: #fff;
+  h1{
+    margin-bottom: 80px;
+    font-size:60px;
+    font-weight: lighter;
+  }
+  p{
+    width: 1000px;
+  }
+}
+.p_main{
+  h1{
+    height: 150px;
+    line-height: 150px;
+    font-size: 31px;
+    font-weight:lighter;
+    border-bottom: 1px solid #ccc;
+  }
+  input{
+    background:#fafafa;
+  }
+  div.p_main1 ul{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    height: 220px;
+    border-bottom:1px dotted #ccc;
+  }
+
+  div.p_main1 ul li{
+    float:left;
+    width: 619px;
+    height: 45px;
+    margin: 15px auto;
+    span{
+      display: inline-block;
+      width:120px;
+      padding-left: 20px;
+      height: 45px;
+      line-height: 45px;
+    }
+    select{
+      width: 478px;
+      height: 45px;
+      background: #fafafa;
+    }
+  }
+  div.p_main1 ul li.p_main1_li{
+     padding-left: 20px;
+     select{
+       width: 144px;
+       margin-left: 10px;
+     }
+   }
+}
+.p_main2{
+    ul{
+      padding-top: 35px;
+      border-bottom:1px dotted #ccc;
+      textarea{
+        background: #fafafa;
+      }
+      li:first-child{
+        padding-left: 120px;
+        margin-bottom: 10px;
+        span{
+          display: inline-block;
+          width: 16px;
+          height: 16px;
+          border-radius: 8px;
+          background: #ccc;
+          color: #fff;
+          text-align: center;
+        }
+      }
+      li:nth-child(2){
+        padding-left: 120px;
+        margin-bottom: 35px;
+      }
+      li:nth-child(3){
+        vertical-align: top;
+        margin-bottom: 50px;
+        span{
+          display: inline-block;
+          width: 120px;
+          padding-left: 20px;
+        }
+      }
+    }
+}
+.p_main3{
+  ul{
+    padding-top: 35px;
+    height: 220px;
+    border-bottom: 1px solid #ccc;
+  }
+  ul li{
+    float:left;
+    width: 619px;
+    height: 73px;
+    line-height: 73px;
+    vertical-align: middle;
+
+    span{
+      display: inline-block;
+      width: 120px;
+      height: 43px;
+      padding-left: 20px;
+      line-height: 43px;
+    }
+    input{
+      height: 43px;
+      width: 480px;
+      border: 1px solid #ccc;
+    }
+  }
+}
+.p_main4{
+  height: 145px;
+  padding-top: 30px;
+  input[type=submit]{
+    padding: 10px 30px;
+    background: #fff;
+    color: #007af1;
+    border: 1px solid #007af1;
+  }
+}
+

@@ -1,0 +1,155 @@
+@charset "UTF-8";
+.c_title_third {
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+  border-bottom: 1px solid #e6e6e6;
+  margin: 0 auto;
+  font-size: 16px; }
+
+.c_title_third ul li {
+  float: left;
+  margin-left: 5px; }
+
+.c_main_third h1 {
+  font-size: 31px;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 35px; }
+
+.c_main_third p {
+  font-size: 16px; }
+
+.c_main_third h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 34px; }
+
+.c_main_third h4 {
+  font-size: 31px;
+  margin-top: 77px;
+  margin-bottom: 58px; }
+
+.a_body {
+  width: 100%;
+  padding: 80px 0;
+  height: 445px; }
+
+@media (max-width: 1240px) {
+  .a_body {
+    width: 100%;
+    padding: 80px 0;
+    height: 550px; }
+
+  .c_word {
+    margin-top: 50px; }
+
+  .c_word_left {
+    margin-bottom: 50px; } }
+.a_body_cloud {
+  background: #f2f6f9; }
+
+.c_image_right {
+  padding-right: 30px; }
+
+.c_word {
+  padding-left: 50px;
+  background: url("../../images/case/point.png") no-repeat 48px 124px; }
+
+.c_word_title {
+  font-size: 32px;
+  padding-left: 20px;
+  border-left: 4px solid #0066ff;
+  margin-bottom: 30px; }
+
+.c_word_words {
+  font-size: 20px;
+  padding-left: 18px;
+  padding-top: 37px;
+  border-top: 1px solid #cccccc; }
+
+.c_word_left {
+  padding-right: 50px;
+  background: url("../../images/case/point.png") no-repeat 15px 124px; }
+
+.c_image_left {
+  padding-left: 30px; }
+
+.c_body_1 {
+  width: 100%;
+  height: 513px; }
+
+.cont_over {
+  width: 1240px;
+  margin: 0 auto; }
+
+@media (max-width: 1240px) {
+  .c_body_1 {
+    display: none; } }
+.c_title_case {
+  width: 100%;
+  height: 192px;
+  font-size: 34px;
+  font-weight: lighter;
+  line-height: 192px; }
+
+.c_main_case {
+  width: 100%;
+  height: 321px; }
+
+.c_main_case div {
+  float: left; }
+
+.c_leftarr, .c_rightarr {
+  width: 92px;
+  height: 245px;
+  line-height: 245px;
+  text-align: center; }
+
+.c_main_main {
+  width: 1048px;
+  height: 245px;
+  margin-bottom: 80px; }
+
+.c_main_main ul li {
+  float: left; }
+
+.c_main_main ul li:first-child img {
+  width: 400px; }
+
+.c_main_main ul li:last-child {
+  width: 648px;
+  padding-left: 65px; }
+
+.c_main_main ul li div:first-child {
+  font-size: 32px;
+  font-weight: lighter;
+  line-height: 32px;
+  padding-bottom: 30px;
+  border-bottom: 1px  solid #ebebeb; }
+
+.c_main_main ul li div:nth-child(2) {
+  margin-top: 30px;
+  font-size: 16px; }
+
+.c_erperButton {
+  margin-top: 65px; }
+
+/*定义按钮样式*/
+.c_erperButton a {
+  display: block;
+  color: #217de0;
+  font-size: 14px;
+  width: 118px;
+  height: 38px;
+  border: 2px solid #217de0;
+  font-weight: bold;
+  text-align: center;
+  line-height: 32px;
+  vertical-align: middle; }
+
+/*# sourceMappingURL=solution.css.map */

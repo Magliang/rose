@@ -1,0 +1,178 @@
+.scheme {
+  width: 100%; }
+
+.fixCon {
+  text-align: center; }
+
+.fixCon {
+  color: #000;
+  font-family: 16px;
+  margin: auto; }
+
+.c_title {
+  height: 242px; }
+
+.fixCon > div.c_title > div:first-child {
+  font-size: 34px;
+  margin-top: 82px; }
+
+.fixCon > div.c_title > div:last-child {
+  font-size: 22px;
+  margin-top: 25px;
+  color: #4f4f4f; }
+
+.c_main > div {
+  height: 405px;
+  box-sizing: border-box;
+  border: 1px solid #E6E6E6;
+  float: left;
+  text-align: center; }
+
+.c_main_photo {
+  width: 140px;
+  height: 110px;
+  background: url("../images/case/1.png") no-repeat -135px -65px;
+  margin: 60px auto 40px; }
+
+.c_main_photo2 {
+  background: url("../images/case/2.png") no-repeat -143px -65px; }
+
+.c_main_photo3 {
+  background: url("../images/case/3.png") no-repeat -143px -65px; }
+
+.c_main_photo4 {
+  background: url("../images/case/4.png") no-repeat -143px -65px; }
+
+.c_main_photo5 {
+  background: url("../images/case/5.png") no-repeat -143px -65px; }
+
+.c_main_photo6 {
+  background: url("../images/case/6.png") no-repeat -143px -65px; }
+
+.c_main_photo7 {
+  background: url("../images/case/7.png") no-repeat -143px -65px; }
+
+.c_main_title {
+  font-size: 26px; }
+
+.c_main_word {
+  font-size: 16px; }
+
+.case {
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box; }
+
+.case > div.row > div:first-child {
+  font-size: 34px;
+  margin-top: 78px; }
+
+.case > div.row > div:nth-child(2) {
+  margin-top: 25px;
+  margin-bottom: 76px;
+  font-size: 22px; }
+
+.case > div.row:last-child {
+  margin: 0 auto;
+  width: 1240px;
+  height: 550px;
+  overflow: hidden;
+  background: #262626;
+  position: relative; }
+
+.case > div.row:last-child > ul {
+  margin: 0 auto;
+  display: block;
+  width: 2891px;
+  height: 550px;
+  position: absolute; }
+
+@media (max-width: 1000px) {
+  .case > div.row:last-child {
+    margin: 0 auto;
+    width: 100%;
+    height: 550px;
+    overflow: hidden;
+    background: #262626;
+    position: relative; }
+
+  .case > div:last-child .c_right {
+    width: 42px;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    left: 375px; } }
+.case > div:last-child > ul > li {
+  width: 413px;
+  float: left;
+  height: 550px;
+  position: relative;
+  text-align: center; }
+
+.case > div:last-child > ul > li:nth-child(1) {
+  background: url("../images/case/succ2.png"); }
+
+.case > div:last-child > ul > li:nth-child(2) {
+  background: url("../images/case/succ3.png"); }
+
+.case > div:last-child > ul > li:nth-child(3) {
+  background: url("../images/case/succ4.png"); }
+
+.case > div:last-child > ul > li:nth-child(4) {
+  background: url("../images/case/succ4.png"); }
+
+.case > div:last-child > ul > li:nth-child(5) {
+  background: url("../images/case/succ3.png"); }
+
+.case > div:last-child > ul > li:nth-child(6) {
+  background: url("../images/case/succ2.png"); }
+
+.case > div:last-child > ul > li:nth-child(7) {
+  background: url("../images/case/succ4.png"); }
+
+.case > div:last-child > ul > li > div {
+  height: 550px; }
+
+.case > div:last-child > ul > li span {
+  color: #fff;
+  font-size: 26px;
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  top: 300px;
+  left: 113px; }
+
+.case > div:last-child > ul > li > div a {
+  margin-top: 740px;
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  color: #fff;
+  display: inline-block; }
+
+.case > div:last-child .c_left {
+  width: 42px;
+  height: 550px;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.case > div:last-child .c_right {
+  width: 42px;
+  height: 550px;
+  position: absolute;
+  top: 0;
+  left: 1201px; }
+
+.c_left > a, .c_right > a {
+  display: inline-block;
+  width: 42px;
+  height: 100%; }
+
+.c_left > a {
+  background: url("../images/case/leftarr.png") no-repeat center; }
+
+.c_right > a {
+  background: url("../images/case/rightarr.png") no-repeat center; }
+
+/*# sourceMappingURL=case1.css.map */

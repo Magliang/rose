@@ -1,0 +1,84 @@
+.container_dp {
+  margin: 0 auto;
+}
+.s_body {
+  width: 100%;
+  font-size: 16px;
+}
+.s_body div.container_dp > div > p:first-child {
+  font-size: 34px;
+  margin-top: 30px;
+}
+.s_body div.container_dp > div > p:nth-child(2) {
+  margin-top: 30px;
+}
+.s_body div.container_dp > div > p:nth-child(3) {
+  margin-top: 40px;
+}
+.s_body div.container_dp > div > p:nth-child(4) {
+  margin-top: 80px;
+  font-size: 24px;
+  font-weight: lighter;
+  color: #4f4f4f;
+}
+.s_body div.container_dp > div > p:nth-child(5) {
+  margin-top: 10px;
+  color: #cdcdcd;
+  margin-bottom: 40px;
+}
+.s_body div > div > div > ul > li {
+  box-sizing: border-box;
+  border: 1px solid #e3e3e3;
+  padding-top: 45px;
+  float: left;
+  height: 398px;
+}
+.s_body .S_discernFirstUl {
+  /*正面框*/
+  /*背面框*/
+}
+.s_body .S_discernFirstUl p {
+  font-size: 18px;
+}
+.s_body .S_discernFirstUl li:first-child {
+  background: url("../images/serve/front.png") no-repeat 520px 330px;
+}
+.s_body .S_discernFirstUl li:first-child div > p:first-child {
+  margin-top: 15px;
+}
+.s_body .S_discernFirstUl li:first-child div > p:last-child {
+  margin-top: 28px;
+}
+.s_body .S_discernFirstUl li:nth-child(2) {
+  background: url("../images/serve/back.png") no-repeat 40px 327px;
+}
+.s_body .S_discernFirstUl li:nth-child(2) div p {
+  margin-bottom: 30px;
+}
+.s_body .S_discernFirstUl li:nth-child(2) div p:first-child {
+  padding-top: 15px;
+}
+.s_body .S_discernFirstUl li:nth-child(3) {
+  background: url("../images/serve/side.png") no-repeat 520px 40px;
+}
+.s_body .S_discernFirstUl li:nth-child(3) div p:first-child {
+  margin-top: 170px;
+  margin-bottom: 28px;
+}
+.s_body .S_discernFirstUl li:last-child {
+  background: url("../images/serve/side.png") no-repeat 40px 40px;
+}
+.s_body .S_discernFirstUl li:last-child div p {
+  margin-bottom: 30px;
+}
+.s_body .s_discernP1 {
+  font-size: 24px;
+  font-weight: lighter;
+  margin-top: 80px;
+}
+.s_body .s_discernP2 {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #a7a7a7;
+  margin-bottom: 38px;
+}

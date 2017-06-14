@@ -1,0 +1,70 @@
+.p_body {
+  width: 100%;
+  font-size: 16px; }
+  .p_body .container_par2 h1.p_title {
+    font-size: 34px;
+    font-weight: lighter;
+    margin-top: 30px;
+    margin-bottom: 40px; }
+  .p_body .container_par2 div.p_introduce span {
+    display: inline;
+    margin-left: 79px;
+    line-height: 30px; }
+  .p_body .container_par2 .p_form input[type=submit] {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    background: #fff;
+    border: 1px solid #007af1;
+    padding: 10px 23px;
+    color: #007af1; }
+
+.p_leftName {
+  width: 125px;
+  text-align: center; }
+
+.P_img {
+  width: 618px; }
+
+.p_form {
+  width: 620px;
+  margin-top: 80px; }
+  .p_form h1 {
+    font-size: 22px;
+    color: #4f4f4f;
+    margin-bottom: 45px; }
+  .p_form li {
+    height: 45px;
+    line-height: 45px;
+    margin-bottom: 30px; }
+  .p_form input[type=text] {
+    height: 45px;
+    background: #fafafa;
+    border: 1px solid #ccc; }
+  .p_form .p_form1 {
+    border-bottom: 1px dotted #e2e2e2;
+    padding-bottom: 20px; }
+    .p_form .p_form1 input {
+      width: 495px; }
+  .p_form .p_form2 {
+    padding-top: 50px;
+    border-bottom: 1px dotted #e2e2e2;
+    padding-bottom: 20px; }
+    .p_form .p_form2 input[type=text] {
+      width: 388px; }
+    .p_form .p_form2 div.p_leftName {
+      height: 45px;
+      line-height: 45px; }
+  .p_form .p_form3 {
+    padding-top: 50px;
+    border-bottom: 1px dotted #e2e2e2;
+    padding-bottom: 20px; }
+    .p_form .p_form3 input {
+      width: 495px; }
+  .p_form .p_form4 {
+    padding-top: 50px;
+    border-bottom: 1px dotted #e2e2e2;
+    padding-bottom: 20px; }
+    .p_form .p_form4 input {
+      width: 495px; }
+
+/*# sourceMappingURL=join.css.map */

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>活动报名</title>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+	<div class="activity_apply_box">
+		<div class="lg_container clr">
+			<div class="col-xs-12">
+				<h2>2017Rose技术路演观展报名</h2>
+				<p>信息提交后，我们会在工作时间与您取得联系，请保持电话畅通</p>
+			</div>
+			<div class="col-xs-12 act_poster">
+				<img src="../../images/about/act_poster.png" alt="容灾，近在咫尺" style="width: 100%"/>
+			</div>
+			<div class="col-xs-12 act_form">
+				<form action="#" class="clr" method="get" id="activity_form">
+					<div class="col-xs-12 form_line_list">
+		                <div class="col-xs-12 col-md-6">
+		                    <div class="col-xs-3 apply_form_label">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名:</div>
+		                    <div class="col-xs-9 apply_form_input">
+		                        <input type="text" name="rr_na" id="applyName">
+		                    </div>
+		                </div>
+		                <div class="col-xs-12 col-md-6">
+		                    <div class="col-xs-3 apply_form_label">性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别:</div>
+		                    <div class="col-xs-9">
+		                        <div class="radio_box">
+		                            <b></b><span>先生</span>
+		                            <input type="radio" name="rr_sex" value="男">
+		                        </div>
+		                        <div class="radio_box ">
+		                            <b class="choice"></b><span>女士</span>
+		                            <input type="radio" name="rr_sex" value="女" checked="checked">
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="col-xs-12 form_line_list">
+		                <div class="col-xs-12 col-md-6">
+		                    <div class="col-xs-3 apply_form_label">联系电话:</div>
+		                    <div class="col-xs-9 apply_form_input">
+		                        <input type="text" name="rr_co_ph" id="applyPhone">
+		                    </div>
+		                </div>
+		                <div class="col-xs-12 col-md-6">
+		                    <div class="col-xs-3 apply_form_label">电子邮箱:</div>
+		                    <div class="col-xs-9 apply_form_input">
+		                        <input type="text" name="rr_email" id="applyEmail">
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="col-xs-12 form_line_list">
+		                <div class="col-xs-12 col-md-6">
+		                    <div class="col-xs-3 apply_form_label">单位名称:</div>
+		                    <div class="col-xs-9 apply_form_input">
+		                        <input type="text" name="rr_un_na" id="applyCompany">
+		                    </div>
+		                </div>
+		                <div class="col-xs-12 col-md-6">
+		                    <div class="col-xs-3 apply_form_label">职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;务:</div>
+		                    <div class="col-xs-9 apply_form_input">
+		                        <input type="text" name="rr_job" id="applyPost">
+		                    </div>
+		                </div>
+		            </div>
+		            <div class="col-xs-12 form_line_list">
+		                <div class="col-xs-12 col-md-6">
+		                    <div class="col-xs-3 apply_form_label">所在省市:</div>
+		                    <div class="col-xs-9 apply_form_input">
+		                        <input type="text" name="rr_prov" id="applyPlace">
+		                    </div>
+		                </div>
+		                <div class="col-xs-12 col-md-6">
+		                    <div class="col-xs-3 apply_form_label">通讯地址:</div>
+		                    <div class="col-xs-9 apply_form_input">
+		                        <input type="text" name="rr_co_add" id="applyAddress">
+		                    </div>
+		                </div>
+		            </div>
+				</form>
+				<div class="col-xs-12">
+                    <div class="col-xs-12 col-md-6">
+                        <div class="col-xs-3 text-right">
+                            <button id="apply_submit">立即申请</button>  
+                        </div>       
+                    </div>    
+                </div>
+			</div>
+		</div>
+	</div>
+	<script src="../../js/jquery-1.12.4.js"></script>
+	<script src="../../js/trian.js"></script>
+	<script>
+		$("#apply_submit").on("click",function(){
+			var input=$("input[type='text']");
+			for(var i=0;i<input.length;i++){
+				if(input[i].value==""){
+					alert("请完成表格输入")
+					return false
+				}
+			}
+			alert("提交成功");
+			console.log($("#activity_form").serialize());
+			$.ajax({
+				type:"POST",
+				url:"",
+				data:$("#activity_form").serialize(),
+				success:function(){
+
+				}
+			})
+		})
+	</script>
+</body>
+</html>

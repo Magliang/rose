@@ -1,0 +1,35 @@
+.p_body {
+  width: 100%;
+  font-size: 16px; }
+  .p_body .container_par1 {
+    text-align: center; }
+    .p_body .container_par1 h1 {
+      font-size: 31px;
+      font-weight: lighter;
+      margin-top: 80px;
+      margin-bottom: 25px; }
+    .p_body .container_par1 p {
+      font-size: 22px;
+      font-weight: lighter;
+      margin-bottom: 15px; }
+    .p_body .container_par1 ul {
+      margin-top: 130px; }
+    .p_body .container_par1 ul li {
+      float: left;
+      box-sizing: border-box;
+      border: 1px solid #e6e6e6;
+      text-align: center;
+      height: 405px;
+      padding-top: 50px; }
+      .p_body .container_par1 ul li p {
+        font-weight: lighter;
+        font-size: 26px;
+        margin: 50px auto; }
+      .p_body .container_par1 ul li a {
+        margin-top: 50px;
+        font-size: 16px;
+        padding: 8px 23px;
+        color: #007af1;
+        border: 1px solid #007af1; }
+
+/*# sourceMappingURL=partner.css.map */

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../../css/style.css"/>
+    <link rel="stylesheet" href="../../css/partnerAll.css"/>
+    <title></title>
+</head>
+<body>
+    <div class="p_body p_temp">
+        <img class="img-responsive" src="../../images/partner/banner2.png" alt=""/>
+    </div>
+    <div class="p_body">
+        <div class="p_main container">
+            <h1>临时授权申请</h1>
+
+            <form action="">
+                <div class="p_main1" >
+                    <ul>
+                        <li><span>*软件名称</span>
+                            <select name="pa_so_na" id="">
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select></li>
+                        <li class="p_main1_li" >
+                            <span>*软件版本</span>
+                            <select name="pa_so_ver">
+                                <option value="">1</option>
+                                <option value="">1</option>
+                                <option value="">1</option>
+                            </select>
+                            <select name="pa_op_sys">
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+                            <select name="">
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select>
+                        </li>
+                        <li>
+                            <span>*操作系统</span>
+                            <select name="">
+                                <option value=""></option>
+                                <option value=""></option>
+                                <option value=""></option>
+                            </select></li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="p_main2" >
+                    <ul>
+                        <li><p>
+                            <span>i</span> 填写HostID时， HostID与HostID之间请以空格或换行符作为间隔。
+                        </p></li>
+                        <li><p> 如果申请RoseHA与RoseMirrorHA的临时授权， 第一个HostID会自动和第二个HostID结为一组， 其余HostID以此类推结组。</p></li>
+                        <li><span>*HostID：</span><textarea  name="pa_hostID" style="width: 1118px; height:238px"></textarea></li>
+                    </ul>
+                </div>
+                <div class="p_main3">
+                    <ul>
+                        <li class="clr"><span>*用户单位</span><input name="pa_us_un" type="text"/></li>
+                        <li class="clr"><span>*用户地址</span><input name="pa_su_ad" type="text"/></li>
+                        <li class="clr"><span>*用户电话</span><input name="pa_su_tel" type="text"/></li>
+                        <li class="clr"><span>*应用项目</span><input name="pa_ap_pro" type="text"/></li>
+                    </ul>
+                </div>
+                <div class="p_main4">
+                    <input type="submit" value="立即申请" id="temporaryCheck"/>
+                    <!--<button>立即申请</button>-->
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="../../js/jquery-1.12.4.js"></script>
+    <script src="../../js/partner.js"></script>
+</body>
+</html>

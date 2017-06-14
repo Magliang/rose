@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>培训课程</title>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/style.css">
+
+</head>
+<body>
+    <div class="trian_plan_box">
+        <div class="lg_container">
+            <div class="trian_course_content clr">
+                <div class="col-xs-12"><h1>培训及考试计划</h1></div>
+                <ul class="accordion course_accordion col-xs-12">
+                    <li>
+                        <div class="link clr">
+                            <div class="col-xs-6">17TEC018 ROSE认证工程师培训<p><span class="plan_addres">成都</span>2017.05.10-2017.05.12</p></div>
+                            <div class="col-xs-4 plan_tlt">
+                                <p><span class="plan_addres">成都</span>2017.05.10-2017.05.12<span class="rt"></span></p>
+
+                            </div>
+                            <div class="col-xs-2"><i class="glyphicon glyphicon-menu-down"></i></div>
+                        </div>
+                        <div class="submenu_content">
+                            <div class="submenu_body">
+                                <div class="detail_items">
+                                    <h4 class="train_num">{{deData[0].t_co_num}} Rose 认证工程师培训</h4>
+
+                                    <p class="trian_time">
+                                        <span>{{deData[0].t_city}}</span><span>{{deData[0].t_time}}</span></p>
+
+                                    <div class="detail_group">
+                                        <h4>培训机构</h4>
+
+                                        <p>{{deData[0].t_mech}}</p>
+                                    </div>
+                                    <div class="detail_group">
+                                        <h4>培训课程</h4>
+                                        <p>{{deData[0].t_cour}}</p>
+
+                                    </div>
+                                    <div class="detail_group">
+                                        <h4>考试时间</h4>
+
+                                        <p>{{deData[0].t_ex_ti}}</p>
+                                    </div>
+                                    <div class="detail_group">
+                                        <h4>考试地点</h4>
+
+                                        <p>{{deData[0].t_ex_pa}}</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="online_apply">
+                                <a href="#">在线报名</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="link clr">
+                            <div class="col-xs-6">17TEC018 ROSE认证工程师培训<p><span class="plan_addres">成都</span>2017.05.10-2017.05.12</p></div>
+                            <div class="col-xs-4 plan_tlt">
+                                <p><span class="plan_addres">成都</span>2017.05.10-2017.05.12 <span class="rt"></span></p>
+                            </div>
+                            <div class="col-xs-2 clr"><i class="glyphicon glyphicon-menu-down"></i></div>
+                        </div>
+                        <div class="submenu_content">
+                            <div class="submenu_body">可编辑内容</div>
+                            <div class="online_apply">
+                                <a href="#">在线报名</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li>
+                        <div class="link clr link_over">
+                            <div class="col-xs-6">17TEC018 ROSE认证工程师培训<p><span class="plan_addres">成都</span>2017.05.10-2017.05.12</p></div>
+                            <div class="col-xs-4 plan_tlt">
+                                <p><span class="plan_addres">成都</span>2017.05.10-2017.05.12 <span class="rt">已结束</span></p>
+
+                            </div>
+                            <div class="col-xs-2 clr"><i class="glyphicon glyphicon-menu-down"></i></div>
+                        </div>
+                        <div class="submenu_content">
+                            <div class="submenu_body">可编辑内容</div>
+                            <div class="online_apply">
+                                <a href="#">在线报名</a>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+                <div class="load_more_btn col-xs-12">
+                    <a href="#" id="getMore">加载更多<span class="glyphicon glyphicon-menu-down"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../js/jquery-1.12.4.js"></script>
+    <script src="../../js/trian.js"></script>
+</body>
+</html>

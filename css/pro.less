@@ -1,0 +1,218 @@
+@import url(style.less);
+
+#product_list {
+    width: 100%;
+    min-height: 1555px;
+    height:auto;
+    position:relative;
+}
+.product_main{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 700;
+}
+.pro_list_title {
+    width:100%;
+    min-height:240px;
+    h1{
+        text-align:center;
+        font-size: 34px;
+        margin-top:80px;
+        margin-bottom:20px;
+    }
+    p{
+        text-align:center;
+        font-size:22px;
+        color:#838383;
+        margin:0;
+    }
+}
+.pro_list_content {
+    width:100%;
+    padding-bottom: 100px;
+    ul li {
+        height:405px;
+        padding:0;
+        border: 1px solid #e5e5e5;
+        overflow: hidden;
+        background: #fff;
+        .pro_list_icon {
+            width:105px;
+            height:70px;
+            margin: 60px auto 10px auto;
+        }
+        h2 {
+            margin:50px auto;
+            font-size:26px;
+            line-height:26px;
+            color:@nav_font_color;
+            text-align:center;
+        }
+        p {
+            margin: 0 auto;
+            font-size:@font_16;
+            color:@nav_font_color;
+            text-align:center;
+        }
+        a{
+            display: block;
+            width: 130px;
+            color: #fff;
+            border: 1px solid #fff;
+            padding: 10px 30px;
+            margin:120px auto 0;
+        }
+    }
+    ul li:hover{
+        background: @banner_bk_color;
+        p{
+            color: #fff;
+        }
+        h2{
+            color:#fff;
+        }
+    }
+}
+.breadcrumb > li + li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: ">\003E";
+}
+.support_box {
+    width:100%;
+    background-color: #fff;
+    color:@nav_font_color;
+    margin-bottom:80px;
+    div.col-xs-12 {
+        padding:0;
+    }
+    .sup_title {
+        
+        margin-top:80px;
+        margin-bottom:60px;
+        h2 {
+            margin: 0;
+        }
+    }
+    .support_content {
+        border-left:1px solid #ddd;
+       .sup_items {
+            padding:0 15px;
+            border:1px solid #ddd;
+            border-left:none;
+            min-height:680px;
+        } 
+    }
+    .sup_icon {
+        h2 {
+            margin:50px 0;
+        }
+    }
+    .sup_icon_img {
+        width:130px;
+        height:90px;
+        margin:60px auto 0;
+    }
+    .sup_items_list {
+        width:100%;
+        &>li {
+            padding:10px 0;
+            border-top:1px solid #ddd;
+            h4 {
+                margin:0;
+                color:#000;
+            }
+            li {
+                line-height:25px;
+                font-size:14px;
+            }
+        }
+    }
+    
+}
+//��Ʒ���ܼ���������
+.c_main_third h1{
+    font-size: 31px;
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.c_main_third p{
+    font-size: 16px;
+}
+.c_main_third h3{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top:34px;
+}
+.c_main_third h4{
+    font-size:31px;
+    margin-top: 77px;
+    margin-bottom: 58px;
+}
+.a_body{
+    width:100%;
+    padding:80px 0;
+    height:445px;
+    p{
+        display: block;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 1240px) {
+    .a_body{
+        width:100%;
+        padding:80px 0;
+        height:550px;
+    }
+    .c_word{
+        margin-top: 50px;
+    }
+    .c_word_left{
+        margin-bottom: 50px;
+    }
+    .c_image_rightNone{
+        display: none;
+    }
+    .c_image_leftNone{
+        display: none;
+    }
+}
+.a_body_cloud{
+    background: #f2f6f9;
+}
+.c_image_right{
+    padding-right:30px
+}
+.c_word{
+    padding-left:50px;
+    //background:url("../images/case/point.png") no-repeat 48px 124px;
+}
+.c_word_title{
+    font-size: 32px;
+    padding-left: 20px;
+    border-left:4px solid #0066ff;
+    margin-bottom:30px;
+}
+.c_word_border{
+    border-top:1px solid #cccccc;
+}
+.c_word_words{
+    font-size:20px;
+    padding-left:18px;
+    padding-top:37px;
+    //border-top:1px solid #cccccc;
+}
+.c_word_left{
+    padding-right:50px;
+    //background:url("../images/case/point.png") no-repeat 10px 124px;;
+}
+.c_image_left {
+    padding-left: 30px;
+}

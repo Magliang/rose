@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>新闻动态</title>
+    <link rel="stylesheet" href="../../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+	<div class="about_news">
+		<div class="lg_container clr">
+			<div class="col-xs-12">
+				<div  class="col-xs-6">
+					<h2>新闻</h2>
+				</div>
+				<div  class="col-xs-6 text-right">
+					<form action="#" id="newLimt">
+					<!-- TODO 单选按钮的事件还没有绑定 -->
+						 <div class="radio_box ">
+                            <b class="choice"></b><span>全部</span>
+                            <input type="radio" name="datalimt" value="all">
+                        </div>
+                         <div class="radio_box ">
+                            <b ></b><span>半年内</span>
+                            <input type="radio" name="datalimt" value="0">
+                        </div>
+                         <div class="radio_box ">
+                            <b ></b><span>一年内</span>
+                            <input type="radio" name="datalimt" value="1">
+                        </div>
+                         <div class="radio_box ">
+                            <b ></b><span>两年内</span>
+                            <input type="radio" name="datalimt" value="3">
+                        </div>
+					</form>
+				</div>
+			</div>
+			<div class="col-xs-12 news_content">
+				<ul class="news_list">
+					<li class="news_item">
+						<a href="#">
+							<h4>2016创新影响力年会落幕：Rose获两项殊荣</h4>
+							<p>2016年12 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati praesentium sapiente odit quia officia quis provident illo ipsum autem laudantium inventore consectetur quas aut saepe, tempora molestiae. Rem rerum, natus?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati praesentium sapiente odit quia officia quis provident illo ipsum autem laudantium inventore consectetur quas aut saepe, tempora molestiae. Rem rerum, natus?</p>
+							<div class="date_show">2017-01-17</div>
+						</a>
+					</li>
+					<li class="news_item">
+						<a href="#">
+							<h4>2016创新影响力年会落幕：Rose获两项殊荣</h4>
+							<p>2016年12 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati praesentium sapiente odit quia officia quis provident illo ipsum autem laudantium inventore consectetur quas aut saepe, tempora molestiae. Rem rerum, natus?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati praesentium sapiente odit quia officia quis provident illo ipsum autem laudantium inventore consectetur quas aut saepe, tempora molestiae. Rem rerum, natus?</p>
+							<div class="date_show">2017-01-17</div>
+						</a>
+					</li>
+					<li class="news_item">
+						<a href="#">
+							<h4>2016创新影响力年会落幕：Rose获两项殊荣</h4>
+							<p>2016年12 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati praesentium sapiente odit quia officia quis provident illo ipsum autem laudantium inventore consectetur quas aut saepe, tempora molestiae. Rem rerum, natus?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati praesentium sapiente odit quia officia quis provident illo ipsum autem laudantium inventore consectetur quas aut saepe, tempora molestiae. Rem rerum, natus?</p>
+							<div class="date_show">2017-01-17</div>
+						</a>
+					</li>
+				</ul>
+				<!-- TODO 交互未完成 -->
+				<a href="#" class="more_btn">加载更多<span class="glyphicon glyphicon-menu-down"></a>
+			</div>
+			<div class="col-xs-12 activity_content clr">
+				<div class="col-xs-12"><h2>活动</h2></div>
+				<ul class="activity_list col-xs-12 clr">
+					<li class="col-xs-12 col-md-4">
+						<div><a href="#"><img src="../../images/about/activity%20(1).png" alt="" /></a><p>2017 Rose解决方案交流会（重庆站）完美闭幕</p></div>
+						
+					</li>
+					<li class="col-xs-12 col-md-4">
+						<div><a href="#"><img src="../../images/about/activity%20(2).png" alt="" /></a>
+
+						<p>2017 Rose解决方案交流会（北京站）完美闭幕</p></div>
+						
+					</li>
+					<li class="col-xs-12 col-md-4">
+						<div><a href="#"><img src="../../images/about/activity%20(3).png" alt="" /></a>
+							<p>2017 Rose解决方案交流会（武汉站）完美闭幕</p>
+						</div>
+						
+					</li>
+					<li class="col-xs-12 col-md-4">
+						<div><a href="#"><img src="../../images/about/activity%20(3).png" alt="" /></a>
+							<p>2017 Rose解决方案交流会（武汉站）完美闭幕</p>
+						</div>
+						
+					</li>
+				</ul>
+				<div class="col-xs-12">
+					<a href="#" class="more_btn">加载更多<span class="glyphicon glyphicon-menu-down"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="../../js/jquery-1.12.4.js"></script>
+	<script src="../../js/trian.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(".activity_list li ").hover(function(){
+				$(this).find("p").show();
+			},function() {
+				$(this).find("p").hide();
+			})
+			//选择不同年限，请求不同的数据
+			$(".radio_box b").on('click',function(){
+				console.log($("#newLimt").serialize());
+				var formstr = $("#newLimt").serialize();
+				// $.getJSON(""+formstr,function(){
+				// 	// 
+				// 	// 
+				// })
+			})
+		});
+	</script>
+</body>
+</html>

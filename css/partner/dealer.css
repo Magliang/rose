@@ -1,0 +1,53 @@
+.tx_align {
+  text-align: left;
+  line-height: 80px;
+  height: 80px; }
+  .tx_align h1 {
+    font-weight: lighter; }
+
+.p_background {
+  background: #EDF4F7; }
+
+.p_bg {
+  height: 339px;
+  padding-top: 120px; }
+  .p_bg div ul {
+    padding-left: 80px; }
+    .p_bg div ul li:first-child {
+      color: #a0a2a3;
+      margin-bottom: 20px; }
+    .p_bg div ul li:nth-child(2) {
+      margin-bottom: 30px; }
+      .p_bg div ul li:nth-child(2) input {
+        width: 70%;
+        height: 43px;
+        background: #fafafa;
+        border: 1px solid #ccc; }
+    .p_bg div ul input[type=submit] {
+      font-size: 16px;
+      color: #007af1;
+      padding: 10px 30px;
+      background: #EDF4F7;
+      border: 1px solid #007af1; }
+
+.container_par3 p {
+  height: 120px;
+  padding-top: 70px; }
+
+table thead {
+  border: 1px solid #ccc; }
+
+table th, table td {
+  width: 33.33%;
+  text-align: center;
+  height: 57px;
+  line-height: 57px; }
+
+table th {
+  background: #f7f7f7; }
+
+table tbody {
+  border: 1px solid #ccc;
+  border-top: none; }
+
+/*# sourceMappingURL=dealer.css.map */
